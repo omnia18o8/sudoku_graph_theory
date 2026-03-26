@@ -100,16 +100,17 @@ I’ve also tested the solver using puzzles from the [GrantM Sudoku Puzzle Bank]
 The solver is designed for puzzles with a **single valid solution**, which is typical for well-constructed Sudoku. While it will run on any valid grid, it will only return one solution, even if multiple solutions exist.
 
 
-P.S: If you're wondering, heres the solution to Arto Inkala's diabolical Sudoku Puzzle:
+**P.S.** If you're wondering, here’s the solution to Arto Inkala's diabolical Sudoku puzzle:
 
-8 1 2 | 7 5 3 | 6 4 9 
-9 4 3 | 6 8 2 | 1 7 5 
-6 7 5 | 4 9 1 | 2 8 3 
+```text
+8 1 2 | 7 5 3 | 6 4 9
+9 4 3 | 6 8 2 | 1 7 5
+6 7 5 | 4 9 1 | 2 8 3
 ------+-------+------
-1 5 4 | 2 3 7 | 8 9 6 
-3 6 9 | 8 4 5 | 7 2 1 
-2 8 7 | 1 6 9 | 5 3 4 
+1 5 4 | 2 3 7 | 8 9 6
+3 6 9 | 8 4 5 | 7 2 1
+2 8 7 | 1 6 9 | 5 3 4
 ------+-------+------
-5 2 1 | 9 7 4 | 3 6 8 
-4 3 8 | 5 2 6 | 9 1 7 
-7 9 6 | 3 1 8 | 4 5 2 
+5 2 1 | 9 7 4 | 3 6 8
+4 3 8 | 5 2 6 | 9 1 7
+7 9 6 | 3 1 8 | 4 5 2
