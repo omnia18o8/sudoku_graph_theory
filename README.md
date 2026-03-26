@@ -5,7 +5,7 @@ I have an obsession with Sudoku. I’ve been playing it for years, to the point 
 Arto Inkala is a Finnish mathematician known for constructing extremely difficult Sudoku puzzles. Some of his puzzles have been described as “the world’s hardest,” and they’re designed to challenge even experienced solvers. Naturally, I had to try one. And yeah… it completely destroyed me. Below is a display of why the puzzle is absolutely diabolical.
 
 
-![Sudoku Solution](https://preview.redd.it/is-suposed-to-be-the-hardest-sudoku-ver-and-i-have-no-idea-v0-j54b1xunf2241.jpg?width=1080&crop=smart&auto=webp&s=0db0b5babfa526eb429825b299dcae5b6bb46348)
+![Arto Inkala](https://preview.redd.it/is-suposed-to-be-the-hardest-sudoku-ver-and-i-have-no-idea-v0-j54b1xunf2241.jpg?width=1080&crop=smart&auto=webp&s=0db0b5babfa526eb429825b299dcae5b6bb46348)
 
 During one of my dissertation modules, I worked with graph colouring. After thinking about Sudoku long enough, I realised the rules are basically the same problem in disguise. In Sudoku, a number can’t repeat in a row, column, or box. In graph colouring, a vertex can’t share a colour with its neighbours. Same rule, different context.
 
