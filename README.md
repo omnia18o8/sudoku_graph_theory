@@ -2,13 +2,14 @@
 
 I have an obsession with Sudoku. I’ve been playing it for years, to the point where most puzzles don’t really challenge me anymore. Eventually, I got bored and started looking for something harder. That’s when I came across Arto Inkala’s Sudoku puzzles.
 
-Arto Inkala is a Finnish mathematician known for constructing extremely difficult Sudoku puzzles. Some of his puzzles have been described as “the world’s hardest,” and they’re designed to challenge even experienced solvers. Naturally, I had to try one. And yeah… it completely destroyed me.
+Arto Inkala is a Finnish mathematician known for constructing extremely difficult Sudoku puzzles. Some of his puzzles have been described as “the world’s hardest,” and they’re designed to challenge even experienced solvers. Naturally, I had to try one. And yeah… it completely destroyed me. Below is a display of why the puzzle is absolutely diabolical.
 
-That’s where this project came from.
+
+![Sudoku Solution](https://preview.redd.it/is-suposed-to-be-the-hardest-sudoku-ver-and-i-have-no-idea-v0-j54b1xunf2241.jpg?width=1080&crop=smart&auto=webp&s=0db0b5babfa526eb429825b299dcae5b6bb46348)
 
 During one of my dissertation modules, I worked with graph colouring. After thinking about Sudoku long enough, I realised the rules are basically the same problem in disguise. In Sudoku, a number can’t repeat in a row, column, or box. In graph colouring, a vertex can’t share a colour with its neighbours. Same rule, different context.
 
-So I decided to model Sudoku as a graph problem.
+So I decided to model Sudoku as a graph problem. That’s where this project came from.
 
 Each cell is a **vertex**, and edges connect cells that share a row, column, or box. Each row, column, and box forms a **clique of size 9**, which means the chromatic number is 9 (which means we need 9 colours). Solving the puzzle becomes a graph colouring problem.
 
@@ -23,6 +24,7 @@ Instead of hardcoding Sudoku techniques, the solver enforces constraints:
 
 This keeps the logic clean and general.
 
+![Sudoku Solution](https://www.researchgate.net/profile/Ruben-Campoy/publication/311668725/figure/fig9/AS:439849451823105@1481879689246/b-Graph-coloring-of-Sudoku.png)
 
 ## 🏗️ Structure
 
