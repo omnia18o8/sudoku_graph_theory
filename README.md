@@ -24,7 +24,8 @@ Instead of hardcoding Sudoku techniques, the solver enforces constraints:
 
 This keeps the logic clean and general.
 
-![Sudoku Solution](https://www.researchgate.net/profile/Ruben-Campoy/publication/311668725/figure/fig9/AS:439849451823105@1481879689246/b-Graph-coloring-of-Sudoku.png)
+<img width="360" height="359" alt="image" src="https://github.com/user-attachments/assets/a7304516-d2aa-4f1f-a9f2-044e6cd3c647" />
+
 
 ## 🏗️ Structure
 
